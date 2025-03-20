@@ -1,14 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "tailwindcss";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --background-color: #ffffff;
+  --text-color-white: #ffffff;
+  --text-color-black: #000000;
+  --text-color-dark: #2d2d2d;
+  --text-color-light: #3a3a3a;
+  --text-color-light-1: #626262;
+  --text-color-light-2: #989898;
+  --light-green: #d6ffd0;
+  --dark-green: #28b30e;
+  --dark-green-2: #239c0c;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --background-gradient: linear-gradient(
+    to bottom,
+    rgba(40, 179, 14, 1),
+    rgba(40, 179, 14, 0)
+  );
 }
