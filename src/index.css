@@ -8,11 +8,11 @@
 
   --background-color: #ffffff;
   --text-color-white: #ffffff;
-  --text-color-black: #000000;
   --text-color-dark: #2d2d2d;
   --text-color-light: #3a3a3a;
   --text-color-light-1: #626262;
   --text-color-light-2: #989898;
+  --black: #000000;
   --light-green: #d6ffd0;
   --dark-green: #28b30e;
   --dark-green-2: #239c0c;
@@ -22,4 +22,6 @@
     rgba(40, 179, 14, 1),
     rgba(40, 179, 14, 0)
   );
+
+  --max-width: 1440px;
 }
