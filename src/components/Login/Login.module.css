@@ -1,0 +1,12 @@
+.background {
+  background-image: linear-gradient(
+      to bottom,
+      var(--blcak-15),
+      var(--black-shade)
+    ),
+    linear-gradient(to bottom, var(--white-light-1), var(--white-0)),
+    url("https://s3-alpha-sig.figma.com/img/d386/b970/c97638865b855b1ce489cf1af7b6cf3d?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PnhgQ4LIZ0DPFG0P8NrpyLg-f2UZQnrt3ZBNAJopvKJQgRR6CSiO-q44PJDTr2rRklZNYnMWHY1NUu~Mhnm4RQ2wGq8BibG-jmDYnEiZp-6q6kcv7Lw6tWa0NxrNQL0z8gXOF6rAfrffqvp8UdCGCiKa-Jtc-CcC3Js0k3WkYTDfdGzIIVcbYxEiZmlRBhGRe09ogXemLXS2QvYjnTSYOKZZXyPj3FWNT~eWaOdSCC3xmmJznW8T8mo3BMNU9fjtG-yFd62dbWbYQCS3vNOFkmAYgZIMQ7pZrQCcpkqpp~aUd5lQiQtTruB7qe1PaFVkxrHSAFy2F8y-P4SrxjquEg__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 576px;
+}
