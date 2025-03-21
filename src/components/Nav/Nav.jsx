@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <section>
-      <header className="max-w-(--max-width) pt-[55px] px-[55px]">
+      <header className="max-w-(--max-width) pt-[55px] px-[55px] mx-auto">
         <nav className="grid grid-cols-3">
           <div></div>
           <ul className="flex justify-around">

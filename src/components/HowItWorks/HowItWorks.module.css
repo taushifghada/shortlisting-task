@@ -1,0 +1,22 @@
+.hwt-container > ul > li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  top: 0;
+  border-top: 3px solid var(--dark-green);
+}
+
+.hwt-container .employee-one::after {
+  content: "";
+  position: absolute;
+  top: -36.85px;
+  left: -40.46px;
+  right: -39.66px;
+  bottom: 44.06px;
+  border-top-left-radius: 19.23px;
+  border-top-right-radius: 19.23px;
+  background: var(--background-gradient-green);
+  z-index: -10;
+}

@@ -5,6 +5,8 @@ import Login from "./components/Login/Login";
 import Nav from "./components/Nav/Nav";
 import WhyCarboncrunch from "./components/WhyCarboncrunch/WhyCarboncrunch";
 
+import "./index.css";
+
 function App() {
   return (
     <>
